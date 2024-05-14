@@ -1,0 +1,76 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+body {
+  background-image: url("https://img.freepik.com/premium-vector/beautiful-night-in-forest-with-moonlight_104785-968.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1701648000&semt=ais");
+  background-size: 100%;
+}
+.block {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.modal {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header h1 {
+  color: #ffffff
+}
+
+.menu button {
+background-color: transparent;
+color: #ffffff;
+border: 2px solid;
+padding: 10px 25px;
+border-radius: 8px;
+
+}
+.modal button {
+  color: #ffffff;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 0;
+}
+.modal input {
+background-color: transparent;
+
+
+}
+a {
+  text-decoration: none;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid;
+  padding: 10px 0;
+}
+input::placeholder {
+ color: black;
+}
+.sourse {
+  display: flex;
+  justify-content: space-between;
+}
